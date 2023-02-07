@@ -1,0 +1,393 @@
+﻿/*.body-content {
+    background-color: #C9D6CF;
+}
+
+.content {
+    position: relative;
+    padding: 80px 80px;
+    overflow: hidden;
+}
+
+.card {
+    border-top-left-radius: 18px;
+}
+
+.nav-link {
+    border-bottom-color: #FFB701;
+    color: #FFB701;
+}
+
+.card-body {
+    background-color: #062639;
+}
+
+#regForm {
+    background-color: #062639;
+    margin: 0px auto;
+    font-family: Raleway;
+    padding: 40px;
+    border-radius: 10px
+}*/
+
+
+input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa
+}
+
+    input.invalid {
+        background-color: #ffdddd;
+        color: black;
+    }
+
+/*.tab {
+    display: none
+}
+
+button {
+    background-color: #ffffff;
+    color: #212529;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: Raleway;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+    button:hover {
+        opacity: 0.8
+    }
+
+#prevBtn {
+    background-color: #bbbbbb
+}*/
+
+/*.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5
+}*/
+
+
+/*.all-steps {
+    padding: 0px 10px;
+    color: #FFB701;
+}
+
+.steptab {
+    border-bottom: 0.05rem solid #FFB701;
+    font-size: 22px;
+    padding: 8px 8px;
+}
+
+    .steptab.active {
+        opacity: 1
+    }
+
+    .steptab.finish {
+        color: #bbbbbb
+    }
+
+.all-steps {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+.thanks-message {
+    display: none
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    user-select: none;
+}*/
+
+
+    /* Hide the browser's default radio button */
+
+    /*.container input[type="radio"] {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+    }*/
+
+
+/* Create a custom radio button */
+
+/*.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}*/
+
+
+/* On mouse-over, add a grey background color */
+
+/*.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}*/
+
+
+/* When the radio button is checked, add a blue background */
+
+/*.container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}*/
+
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+
+/*.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}*/
+
+
+/* Show the indicator (dot/circle) when checked */
+
+/*.container input:checked ~ .checkmark:after {
+    display: block;
+}*/
+
+
+/* Style the indicator (dot/circle) */
+
+/*.container .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}*/
+
+::placeholder {
+    font-size:17px;
+    opacity: 1; /* Firefox */
+}
+.labelname {
+    font-size: 13px;
+    
+    font-family: Poppins,sans-serif;
+    color: #e5e5e5;
+    margin: 30px 0px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.detail {
+    background-color: rgba(0,0,0,.2);
+    padding: 8px 16px;
+    color: #eee;
+    border-bottom: 1px solid #444;
+}
+
+.detailvalue {
+    font-size: 16px;
+    color: #ffb701;
+}
+
+.labelform {
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    cursor: pointer;
+    color: #ffffff;
+    line-height: inherit;
+    display: inline-block;
+    font-size: 1.3rem;
+}
+
+.labelform2 {
+    background: transparent;
+    display: inline-block;
+}
+
+.firstname:focus {
+    outline: none;
+}
+
+.form2 {
+    background-color: rgba(0,0,0,.2);
+    border-color: #444 !important;
+    color: white;
+    padding: 20px 20px;
+}
+
+.price {
+    font-size: 16px;
+}
+
+.hotel-view {
+    font-size: 14px;
+    color: #6c757d;
+    margin-bottom: 15px;
+}
+
+.hotel-rent {
+    color: #ffb701;
+    font-size: 18px;
+    margin-top: 14px;
+    padding: 0px;
+}
+
+.hotel-class {
+    font-size: 18px;
+}
+.pricetag:hover{
+    background-color:white;
+        color: #062639!important;
+       
+}
+
+/*.tabactive{
+    background:#2196F3;
+    color:white;
+}*/
+
+#wizHeader li .prevStep {
+    background-color: grey;
+}
+
+    #wizHeader li .prevStep:after {
+        border-left-color: grey !important;
+    }
+
+#wizHeader li .currentStep {
+    background-color: #4A3C8C!important;
+}
+
+    #wizHeader li .currentStep:after {
+        border-left-color: #4A3C8C !important;
+    }
+
+#wizHeader li .nextStep {
+    background-color: grey !important;
+}
+
+    #wizHeader li .nextStep:after {
+        border-left-color: grey !important;
+    }
+
+#wizHeader {
+    list-style: none;
+    overflow: hidden;
+    font: 18px Helvetica, Arial, Sans-Serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+    #wizHeader li {
+        float: left;
+    }
+
+        #wizHeader li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 0 10px 55px;
+            background: brown; /* fallback color */
+            background: hsla(34,85%,35%,1);
+            position: relative;
+            display: block;
+            float: left;
+        }
+
+            #wizHeader li a:after {
+                content: " ";
+                display: block;
+                width: 0;
+                height: 0;
+                border-top: 50px solid transparent; /* Go big on the size, and let overflow hide */
+                border-bottom: 50px solid transparent;
+                border-left: 30px solid hsla(34,85%,35%,1);
+                position: absolute;
+                top: 50%;
+                margin-top: -50px;
+                left: 100%;
+                z-index: 2;
+            }
+
+            #wizHeader li a:before {
+                content: " ";
+                display: block;
+                width: 0;
+                height: 0;
+                border-top: 50px solid transparent;
+                border-bottom: 50px solid transparent;
+                border-left: 30px solid white;
+                position: absolute;
+                top: 50%;
+                margin-top: -50px;
+                margin-left: 1px;
+                left: 100%;
+                z-index: 1;
+            }
+
+        #wizHeader li:first-child a {
+            padding-left: 10px;
+        }
+
+        #wizHeader li:last-child {
+            padding-right: 50px;
+        }
+
+     /*   #wizHeader li a:hover {
+            background: #FE9400;
+        }
+
+            #wizHeader li a:hover:after {
+                border-left-color: #4A3C8C !important;
+            }*/
+
+
+.img {
+    position: relative;
+    padding: 80px 80px;
+    overflow: hidden;
+}
+
+.content {
+    /* height: 150px;
+    padding-top: 75px;
+    text-align: center;*/
+    background-color: #062639;
+    /*font-size: 48px;*/
+    margin: 0px auto;
+    font-family: Raleway;
+    padding: 40px;
+    color: white;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    color: #ffffff;
+    filter: brightness(0) invert(1);
+}
+
+.inline-rb input[type="radio"] {
+    width: 100px;
+}
+
+.inline-rb label {
+    display: inline;
+}
+

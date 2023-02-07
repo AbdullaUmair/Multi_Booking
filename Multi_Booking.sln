@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multi_Booking", "Multi_Booking\Multi_Booking.csproj", "{479CD556-8AB5-4227-BE74-B460A9DB92CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{479CD556-8AB5-4227-BE74-B460A9DB92CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{479CD556-8AB5-4227-BE74-B460A9DB92CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{479CD556-8AB5-4227-BE74-B460A9DB92CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{479CD556-8AB5-4227-BE74-B460A9DB92CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12F13DE2-FCDD-4A23-9E51-55724003D85B}
+	EndGlobalSection
+EndGlobal

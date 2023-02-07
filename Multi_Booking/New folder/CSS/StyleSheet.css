@@ -1,0 +1,364 @@
+﻿
+
+/*digital library*/
+.filterDiv {
+    float: left;
+    background-color: none;
+    color: black;
+    width: 300px;
+    line-height: 150px;
+    text-align: center;
+    margin: 2px;
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.container {
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.dig {
+    padding: 5px;
+    border-color: #ddd;
+}
+
+ .dig:hover {
+    box-shadow: 5px 5px 5px gray;
+ }
+
+.card:hover {
+    box-shadow: 5px 5px 8px gray;
+}
+
+/* Style the buttons */
+
+
+.slide {
+    color: #ffff;
+}
+
+
+/*sub file CSS*/
+
+.card {
+    padding: 20px;
+    text-align: center;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 5px gray;
+}
+
+
+.my_card:hover {
+    box-shadow: 5px 5px 8px gray;
+}
+
+.my_card {
+    transition: 0.5s ease;
+    background-color: #0e96f6;
+    text-size-adjust: 10px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+
+.my_border {
+    padding: 40px;
+    background-color: #0e96f6;
+    color: white;
+}
+
+.img{
+   width: 100%;
+}
+
+
+/*Task 1*/
+.hotel{
+    padding: 60px;
+}
+
+.hotel_card {
+  padding: 60px;
+  background-color:#154360;
+}
+
+.check{
+    color:white;
+    font-size:20px;
+}
+
+
+
+/*.tab {
+    overflow: hidden;
+}
+
+    /* Style the buttons inside the tab 
+    .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-size: 17px;
+    }
+
+        /* Change background color of buttons on hover 
+    .tab button {
+        background-color: transparent;
+        color: white;
+        border:0;
+        border-bottom-color: yellow;
+        border-bottom: 2px solid white;
+    }
+
+        /* Create an active/current tablink class 
+            .tab button.active {
+                background-color: transparent;
+                color: yellow;
+                border-bottom: 2px solid yellow;
+               
+            }
+
+/* Style the tab content 
+.tabcontent {
+    display: none;
+    
+}*/
+
+.myform
+{
+    width: 100%;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+    color: white;
+}
+
+.label{
+display: inline-block;
+font-size: 13px;
+margin-bottom: 10px;
+cursor: pointer;
+color:white;
+}
+
+.button {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    outline: 0;
+    white-space: nowrap;
+    margin: 5px;
+    padding: 8px 22px;
+    font-size: 14px;
+    line-height: 24px;
+    
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 20%);
+}
+
+#Rate1:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+
+#Rate2:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+#Rate3:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+#regForm {
+    background-color: transparent;
+    
+    font-family: Raleway;
+    padding: 40px;
+    
+    min-width: 300px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+    color: white;
+}
+
+    /* Mark input boxes that gets an error on validation: */
+    input.invalid {
+        background-color: #ffdddd;
+    }
+
+/* Hide all steps by default: */
+.tab {
+   display:none;
+}
+
+
+
+
+    button:hover {
+        opacity: 0.8;
+    }
+
+#prevBtn {
+    background-color: #bbbbbb;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+    float: left;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    background-color: transparent;
+    color: white;
+    border: 0;
+    border-bottom-color: yellow;
+    border-bottom: 2px solid white;
+}
+
+
+    .step.active {
+        background-color: transparent;
+        color: yellow;
+        border-bottom: 2px solid yellow;
+    }
+
+    /* Mark the steps that are finished and valid: 
+    .step.finish {
+        background-color: #04AA6D;
+    }*/
+
+
+/*.list-group-horizontal {
+    flex-direction: row;
+}
+.d-flex{
+    display:flex!important;
+}
+
+.row{
+    display:flex;
+    flex-wrap:wrap;
+}
+*, ::after, ::before{
+    box-sizing:border-box;
+}
+.div{
+    
+}
+ #booking .list-group a.action{
+    border-bottom-color:yellow;
+    color:yellow;
+}
+
+#booking .list-group a{
+    background-color:transparent;
+    border-bottom:2px solid yellow;
+    color:yellow;
+}
+
+#booking .list-group a{
+    border:0;
+    border-radius:0;
+
+}
+
+ #booking .border-form-control:not(.not-dark) {
+    border-bottom-color: rgba(255,255,255,0.4);
+    color: #FFF !important;
+}
+
+#booking .border-form-control:not(.not-dark) {
+    border-bottom-color: rgba(255,255,255,0.4);
+    color: #FFF !important;
+}
+
+
+#booking input.border-form-control,
+#booking select.border-form-control,
+#booking .border-form-control {
+    padding-left: 0;
+    background-color: transparent !important;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 0 !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+#booking textarea.border-form-control {
+    resize: none;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.dark #booking .border-form-control:not(.not-dark) {
+    border-bottom-color: rgba(255,255,255,0.4);
+    color: #FFF !important;
+}
+
+    .dark #booking .border-form-control:not(.not-dark):not(.error):focus,
+    .dark #booking .border-form-control:not(.not-dark):not(.error):active {
+        border-bottom-color: rgba(255,255,255,1) !important;
+    }
+
+#booking button {
+    background-color: #FFB701;
+}
+
+.fcolor {
+    color: #FFB701 !important;
+}
+
+#booking .btn-check:checked + .list-group-item {
+    background-color: #FFF;
+}
+
+    /* #booking-registration .btn-check + .list-group-item:hover { background-color: rgba(255, 255, 255, 0.01); } 
+
+    #booking .btn-check:checked + .list-group-item h4,
+    #booking .btn-check:checked + .list-group-item h3 {
+        color: #062639;
+    }*/
